@@ -71,9 +71,6 @@ To deploy the project on Vercel:
 2. Connect the repository to Vercel.
 3. Deploy both the frontend and backend separately.
 
-## Contributors
-- **Divanshi Jain** - [GitHub Profile](https://github.com/DivanshiJain2005)
-
 ## License
 This project is licensed under the MIT License.
 
