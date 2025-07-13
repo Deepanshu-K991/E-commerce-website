@@ -1,45 +1,76 @@
-# Food-Delivery-Website
-# User-friendly and efficient food delivery website that connects customers with local restaurants .
+# E-Commerce Website (MERN Stack)
 
-## Scope:
+## Description
+This project is a fully functional e-commerce website built using the MERN (MongoDB, Express, React, Node.js) stack. It features user authentication, product management, a shopping cart, order placement, and payment gateway integration. The admin dashboard allows for efficient store management, including order tracking and product uploads.
 
-The website allows customers to:
+## Features
+- **Frontend**: Built with Vite React, including pages for home, collections, product details, cart, orders, login, about, and contact.
+- **Backend**: Node.js and Express handle APIs, user authentication, and database management.
+- **Authentication**: Secure user and admin authentication using JWT.
+- **Product Management**: Upload, edit, and delete products via an admin dashboard.
+- **Cart & Order Management**: Add products to the cart, place orders, and track them in the admin panel.
+- **Payment Integration**: Supports Stripe and Razorpay for secure transactions.
+- **Image Uploads**: Uses Cloudinary and Multer for efficient image storage and handling.
+- **Deployment**: Fully deployed on Vercel for easy access.
 
-* Browse through menus from local restaurants
-* Place orders
-* Create user accounts or login using their existing google account.
-* Filter out restaurants based on Cuisine types, cost etc.
-* Pay online through a secure payment system(paytm pay)
+## Project Structure
+1. **Frontend**: Vite React setup, routing, and UI components.
+2. **Backend**: API development with Express and MongoDB.
+3. **Authentication**: User registration and admin verification.
+4. **Product Features**: Uploading and displaying products.
+5. **Cart & Orders**: Managing user purchases and tracking orders.
+6. **Admin Dashboard**: Overview and control over website operations.
+7. **Payments**: Secure integration with Stripe and Razorpay.
+8. **Image Uploads**: Implemented using Cloudinary and Multer.
+9. **Deployment**: Final hosting on Vercel.
 
-The website will be developed using the MERN stack, which includes:
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/mern-ecommerce.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd mern-ecommerce
+   ```
+3. Install dependencies for both frontend and backend:
+   ```bash
+   cd frontend
+   npm install
+   cd ../backend
+   npm install
+   cd ../admin
+   npm install
+   ```
+4. Start the development servers:
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+   ```bash
+   cd backend
+   npm run dev
+   ```
+   ```bash
+   cd admin
+   npm run start
+   ```
+5. Open `http://localhost:5174/` in your browser.
 
-* MongoDB
-* Express
-* React Js
-* Node.js
+## Technologies Used
+- **Frontend**: React, Redux, React Router
+- **Backend**: Node.js, Express, MongoDB
+- **Authentication**: JWT
+- **Payment**: Stripe, Razorpay
+- **Image Uploads**: Cloudinary, Multer
+- **Deployment**: Vercel
 
-## Target Audience: 
+## Deployment
+To deploy the project on Vercel:
+1. Push the code to GitHub.
+2. Connect the repository to Vercel.
+3. Deploy both the frontend and backend separately.
 
-The website will target individuals who are looking for an easy and convenient way to order food for delivery or pickup.
-
-## Key Requirements:
-
-* A user-friendly interface that allows customers to easily browse menus and place orders.
-* Integration with payment systems(razorpay) to allow customers to pay online.
-* Fully responsive website so that customers can also order using their mobile devices.
-* Secure and encrypted data storage for customer information and payment details, using MongoDB.
-* Option for customers to leave ratings and reviews for restaurants and food items.
-* The website will be built using the MEVN stack (MongoDB, Express, Vue.js, and Node.js).
-* The interface will have various filter options like cuisine,cost etc to give best user experience to the customer.
-
-## Below are some screenshots of the interface:- 
-<img width="1436" alt="Screen Shot 2023-03-05 at 7 08 34 PM" src="https://user-images.githubusercontent.com/83384002/223002383-1abe80e8-eac3-436e-94e6-edb74a5d583a.png">
-<img width="721" alt="Screen Shot 2023-03-05 at 7 09 02 PM" src="https://user-images.githubusercontent.com/83384002/223002448-4c01498b-dbea-47f8-b6db-35431fdac939.png">
-<img width="1416" alt="Screen Shot 2023-03-05 at 7 09 13 PM" src="https://user-images.githubusercontent.com/83384002/223002482-4fca06fa-1dda-4841-9a5a-7ea427ddda25.png">
-<img width="1422" alt="Screen Shot 2023-03-05 at 7 11 11 PM" src="https://user-images.githubusercontent.com/83384002/223002506-1be92753-9f30-4f03-8a21-56b125d367d2.png">
-<img width="1431" alt="Screen Shot 2023-03-05 at 7 11 29 PM" src="https://user-images.githubusercontent.com/83384002/223002533-e6deb00f-d757-4f57-8f3d-c76bed5f95ae.png">
-<img width="1431" alt="Screen Shot 2023-03-05 at 7 11 56 PM" src="https://user-images.githubusercontent.com/83384002/223002563-baaf8bc8-799e-4d59-b354-26bb8c6cd557.png">
-
-
-<img width="1290" alt="Screen Shot 2023-03-05 at 7 12 07 PM" src="https://user-images.githubusercontent.com/83384002/223002591-a8579774-7dd5-4966-8042-e2245173e3e3.png">
+## License
+This project is licensed under the MIT License.
 
